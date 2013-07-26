@@ -30,6 +30,7 @@ Pod::Spec.new do |s|
   # Specify the location from where the source should be retrieved.
   #
   s.source       = { :git => "https://github.com/shsteven/RKDotNetDateFormatter.git", :branch => "master" }
+  s.source_files = 'RKDotNetDateFormatter.{h,m}'
 
   s.requires_arc = true
 
